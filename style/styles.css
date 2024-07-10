@@ -254,3 +254,56 @@ p.service-text {
   align-items: center;
   gap: 24px;
 }
+/* CTA styles */
+.cta-content {
+  /* background-image: url(); */
+  background: url(../assets/rectangle-9.png) lightgray 0px -203.444px / 100% 213.755%
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 122px 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.cta-text h2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cta-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 48px;
+}
+
+.cta-form input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 22px;
+  border: 0;
+  width: 660px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-form form {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+/* Footer styles */
