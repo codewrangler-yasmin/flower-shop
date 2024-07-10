@@ -247,3 +247,10 @@ p.service-text {
   width: 318px;
   height: 420px;
 }
+/* Showcase styles */
+.showcase-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
