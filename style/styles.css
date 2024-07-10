@@ -25,7 +25,6 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: 0 solid;
-  color: #fff;
 }
 
 img {
@@ -55,51 +54,31 @@ h6 {
 .section-padding {
   padding: 120px 0;
 }
-/* 
+
 .section-title {
-  width: 691px;
+  width: 594px;
   height: 173px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   margin: 0 auto;
-}
-.section-title .subtitle {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 28px;
-  opacity: 0.6;
-}
-.section-title .title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 64px;
-  text-align: center;
   margin-bottom: 48px;
 }
-.btn-container {
+
+.section-title .title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.section-title .sub-title {
+  color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  padding: 64px 0 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.btn {
-  font-family: "Work Sans", sans-serif;
-  border-radius: 8px;
-  padding: 21px 32px;
-  border: none;
-  background: rgb(82, 195, 3);
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23px;
-  cursor: pointer;
-}
-.section-content {
-  width: 1320px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-} */
 
 /* Banner Styles */
 .header-banner-container {
@@ -151,4 +130,48 @@ p.banner-desc {
   width: 635px;
   height: 800px;
   margin-top: 50px;
+}
+/* Featured styles */
+.featured-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-img-box {
+  width: 464px;
+  height: 538px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 32px;
+}
+.box-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.box-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.box-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-img-box img {
+  width: 310px;
+  height: 428px;
+}
+a.btn-bordered {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
