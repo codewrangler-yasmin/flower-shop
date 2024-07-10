@@ -46,6 +46,7 @@ h6 {
   font-weight: 700;
   font-family: "Lato", sans-serif;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -54,7 +55,9 @@ h6 {
 .section-padding {
   padding: 120px 0;
 }
-
+.pt-0 {
+  padding-top: 0;
+}
 .section-title {
   width: 594px;
   height: 173px;
@@ -174,4 +177,24 @@ a.btn-bordered {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+.services-content {
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.service-img img {
+  width: 88px;
+  height: 88px;
+}
+p.service-text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
