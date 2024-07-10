@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  color: #272727;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #272727;
+  font-family: "Lato", sans-serif;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 solid;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+/* 
+.section-title {
+  width: 691px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 auto;
+}
+.section-title .subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.6;
+}
+.section-title .title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.btn-container {
+  text-align: center;
+  padding: 64px 0 0;
+}
+.btn {
+  font-family: "Work Sans", sans-serif;
+  border-radius: 8px;
+  padding: 21px 32px;
+  border: none;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  cursor: pointer;
+}
+.section-content {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+} */
+
+/* Banner Styles */
+.header-banner-container {
+  background-color: #fceef1;
+  height: 850px;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 97px;
+}
+.banner-text {
+  width: 708px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+h2.banner-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+p.banner-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn {
+  border-radius: 8px;
+  border: 0;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #e55473;
+}
+.banner-img {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+}
